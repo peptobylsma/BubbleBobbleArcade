@@ -91,6 +91,15 @@ Item Based
       Collect 100,000 Point Bonus From Perfect Collect
    Collect 1 Purple Potion
       Collect 100,000 Point Bonus From Perfect Collect
+      
+  Cheat Items
+  
+  Enable "TAK" high score initials and collect x number of wooden crosses on the first round of a new game
+  Enable "STR" high score initials and collect x number of pink poops on the first round of a new game
+  Enable "KTT" high score initials and collect x number of pizzas on the first round of a new game
+  Enable "SEX" high high score initials and collect x number of diamonds on the first round of a new game
+  Enable "..." high score initials and collect x number of diamonds on the first round of a new game
+  Enable "I.F, MTJ, NSO, KIM, or YSH" high score cheat and collect x number of diamonds on the first round of a new game
     
 Game State Based
   Freeze the Clock
@@ -173,17 +182,26 @@ Added Collect All Four Lanterns
       - Fire Trinket Achievement From Rare Items. Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
     
     Added
-    - Potions and Associated Items
-   Collect 1 Orange Potion
-      Collect 100,000 Point Bonus From Perfect Collect
-   Collect 1 Red Potion
-      Collect 100,000 Point Bonus From Perfect Collect
-   Collect 1 Green Potion
-      Collect 100,000 Point Bonus From Perfect Collect
-   Collect 1 Yellow Potion
-      Collect 100,000 Point Bonus From Perfect Collect
-   Collect 1 Purple Potion
-      Collect 100,000 Point Bonus From Perfect Collect
+     - Potions and Associated Items
+          Collect 1 Orange Potion
+              Collect 100,000 Point Bonus From Perfect Collect
+          Collect 1 Red Potion
+              Collect 100,000 Point Bonus From Perfect Collect
+          Collect 1 Green Potion
+              Collect 100,000 Point Bonus From Perfect Collect
+          Collect 1 Yellow Potion
+              Collect 100,000 Point Bonus From Perfect Collect
+          Collect 1 Purple Potion
+              Collect 100,000 Point Bonus From Perfect Collect
+      
+   Cheat Items
+  
+    Enable "TAK" high score initials and collect x number of wooden crosses on the first round of a new game
+    Enable "STR" high score initials and collect x number of pink poops on the first round of a new game
+    Enable "KTT" high score initials and collect x number of pizzas on the first round of a new game
+    Enable "SEX" high high score initials and collect x number of diamonds on the first round of a new game
+    Enable "..." high score initials and collect x number of diamonds on the first round of a new game
+    Enable "I.F, MTJ, NSO, KIM, or YSH" high score cheat and collect x number of diamonds on the first round of a new game
   
     Edited
       Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
