@@ -11,12 +11,13 @@ Level Based
   Complete Level 70
   Complete Level 80
   Complete Level 90
-  Complete Level 100 - "Happy End!!"
-  Complete Level 100 - 1 CC - "Ultimate Happy End!!"
+  Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
+  Complete Level 100 - Single Player - "Never Forget Your Friend!"
+  Complete Level 100 - Two Player - "Better End!!"
+  Complete Level 100 - Super Bubble Bobble - "True and Happy End!!"
 
 Score Based
   TBD
-  Collect xxx Points From Food
   Score a 64,000 Point Combo on Round 46.
 
 Secret Room Based
@@ -24,10 +25,56 @@ Secret Room Based
   Find the second secret room
 
 Item Based
-  Collect the 30,000 point cake - "He's Going the Distance"
   Spell "Extend" - "NICE 1P!"
-  Collect One Bomb Heart During a Single Playthrough
-  Collect Two Bomb Hearts During a Single Playthrough
+  Collect 10 Bananas
+  Collect 10 Oragnes
+  Collect 10 Peaches
+  Collect 10 Watermelons
+  Collect 10 Grapes
+  Collect 10 Pineapples
+  "Cornucopia" - Complete all above food collection achievements
+  Collect 25 Diamonds // try to look into how many diamonds are usually collected throughout the course of a game, maybe do achivements based on 10-25-50-100
+    diamonds, do Diamond Hunter Achievements
+  Collect All Three Candies - "Sweet Tooth"
+  Collect All Three Umbrellas - "Mary POPpins"
+  Collect All Three Rings "With Our Powers Combined"
+  Collect All Three Crosses "Triple Crossed"
+  Collect All Four Laterns "Legendary Lanterns"
+  
+  Rare Items
+    Collect 1 Shoe
+    Collect 1 Timer
+    Collect 1 Bomb
+    Collect 1 Bell
+    Collect 1 Book of Spells
+    Collect 1 Diamond Ring
+    Collect 1 Red Necklace
+    Collect 1 White Necklace
+    Collect 1 Bomb Heart
+    Collect 1 Crystal Ball
+    Collect 1 Pencil
+    Collect 1 Golden Skull
+    Collect 1 Secret Door (Regular)
+    Collect 1 Super Secret Door (Level 50 without dying)
+    Collect 1 Fire Trinket
+    Collect 1 Lightning Potion
+    Collect All Rare Items "The Aesthete Collector".
+    
+  Staffs and Chests
+    Collect 1 Blue Staff and the Giant Blue Popsicle
+    Collect 1 Brown Staff and the Giant Chocolate Ice Cream
+    Collect 1 Orange Staff and the Giant Orange
+    Collect 1 Pink Staff and the Giant Watermelon
+    Collect 1 Yellow Staff and the Giant Cake
+    Collect 1 Light Blue Staff and the Giant Pie
+    Collect All Staffs
+    Collect 1 Silver Chest and the Silver Gem
+    Collect 1 Blue Chest and the Blue Gem
+    Collect 1 Red Chest and the Red Gem
+    Collect 1 Orange Chest and the Orange Gem
+    Collect 1 Purple Chest and the Puple Gem
+    Collect All Chests and Gems
+  
   
 Game State Based
   Freeze the Clock
@@ -35,13 +82,68 @@ Game State Based
 
 Warp Based
   TBD
+  Complete Level 100 Without Using a Warp
 
 Bonus Round Based
   Complete a Perfect Bonus Round
 
 Mechanic Based
-  TBD
   Kill xxx Enemies At One Time
-
-
-   
+  Activate Super Bubble Bobble Mode
+  
+///////////////////////////////////////////////////////////////////////////////
+Changelog 6/7/23
+Added Complete Level 100 - Single Player - "Never Forget Your Friend!"
+Added Complete Level 100 - Two Player - "Better End!!"
+Added Complete Level 100 - Super Bubble Bobble - "True and Happy End!!"
+Removed Complete Level 100 - "Happy End"
+Added Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
+  Changed these around to accomodate the different endings in the game based on players and input of "Super Bubble Bobble Cheat"
+Added Complete Level 100 Without Using a Warp
+Added Collect 10 Bananas
+Added Collect 10 Oragnes
+Added Collect 10 Peaches
+Added Collect 10 Watermelons
+Added Collect 10 Grapes
+Added Collect 10 Pineapples
+Added "Cornucopia"
+Added Collect 25 Diamonds
+Removed "Collect xxx points from food"
+Added Collect All Three Candies"
+Added Collect All Three Umbrellas - "Mary POPpins"
+Added Collect All Three Rings "With Our Powers Combined"
+Added Activate Super Bubble Bobble Mode
+Added Collect All Four Lanterns
+ Added Rare Items
+    Collect 1 Shoe
+    Collect 1 Timer
+    Collect 1 Bomb
+    Collect 1 Bell
+    Collect 1 Book of Spells
+    Collect 1 Diamond Ring
+    Collect 1 Red Necklace
+    Collect 1 White Necklace
+    Collect 1 Bomb Heart
+    Collect 1 Crystal Ball
+    Collect 1 Pencil
+    Collect 1 Golden Skull
+    Collect 1 Secret Door (Regular)
+    Collect 1 Super Secret Door (Level 50 without dying)
+    Collect 1 Fire Trinket
+    Collect 1 Lightning Potion
+    Collect All Rare Items "The Aesthete Collector".
+  Added
+    Staffs and Chests
+    Collect 1 Blue Staff and the Giant Blue Popsicle
+    Collect 1 Brown Staff and the Giant Chocolate Ice Cream
+    Collect 1 Orange Staff and the Giant Orange
+    Collect 1 Pink Staff and the Giant Watermelon
+    Collect 1 Yellow Staff and the Giant Cake
+    Collect 1 Light Blue Staff and the Giant Pie
+    Collect All Staffs
+    Collect 1 Silver Chest and the Silver Gem
+    Collect 1 Blue Chest and the Blue Gem
+    Collect 1 Red Chest and the Red Gem
+    Collect 1 Orange Chest and the Orange Gem
+    Collect 1 Purple Chest and the Puple Gem
+    Collect All Chests and Gems
