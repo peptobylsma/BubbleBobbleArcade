@@ -56,10 +56,9 @@ Item Based
     Collect 1 Golden Skull
     Collect 1 Secret Door (Regular)
     Collect 1 Super Secret Door (Level 50 without dying)
-    Collect 1 Fire Trinket
     Collect 1 Lightning Potion
-    Collect All Rare Items "The Aesthete Collector".
-    
+    Collect "All" Rare Items "The Aesthete Collector"
+    Note: Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
   Staffs and Chests
     Collect 1 Blue Staff and the Giant Blue Popsicle
     Collect 1 Brown Staff and the Giant Chocolate Ice Cream
@@ -137,6 +136,8 @@ Added Collect All Four Lanterns
     Collect 1 Blue Staff and the Giant Blue Popsicle
     Collect 1 Brown Staff and the Giant Chocolate Ice Cream
     Collect 1 Orange Staff and the Giant Orange
+    
+    
     Collect 1 Pink Staff and the Giant Watermelon
     Collect 1 Yellow Staff and the Giant Cake
     Collect 1 Light Blue Staff and the Giant Pie
@@ -147,3 +148,8 @@ Added Collect All Four Lanterns
     Collect 1 Orange Chest and the Orange Gem
     Collect 1 Purple Chest and the Puple Gem
     Collect All Chests and Gems
+    
+    ///////////////////////////////////////////////////////////////////////////////
+    Changelog 6/7/23
+    
+    Removed Fire Trinket Achievement From Rare Items. Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
