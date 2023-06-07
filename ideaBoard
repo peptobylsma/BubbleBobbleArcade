@@ -100,6 +100,9 @@ Item Based
   Enable "SEX" high high score initials and collect x number of diamonds on the first round of a new game
   Enable "..." high score initials and collect x number of diamonds on the first round of a new game
   Enable "I.F, MTJ, NSO, KIM, or YSH" high score cheat and collect x number of diamonds on the first round of a new game
+  
+  Enemy Based
+  TBD
     
 Game State Based
   Freeze the Clock
@@ -194,7 +197,7 @@ Added Collect All Four Lanterns
           Collect 1 Purple Potion
               Collect 100,000 Point Bonus From Perfect Collect
       
-   Cheat Items
+   -Cheat Items
   
     Enable "TAK" high score initials and collect x number of wooden crosses on the first round of a new game
     Enable "STR" high score initials and collect x number of pink poops on the first round of a new game
@@ -202,8 +205,11 @@ Added Collect All Four Lanterns
     Enable "SEX" high high score initials and collect x number of diamonds on the first round of a new game
     Enable "..." high score initials and collect x number of diamonds on the first round of a new game
     Enable "I.F, MTJ, NSO, KIM, or YSH" high score cheat and collect x number of diamonds on the first round of a new game
+    
+    -  Enemy Based
+      TBD
   
     Edited
-      Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
+     -  Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
       May need to figure out if there is a way to "if/then" the achievement in such a way that the super bobble bobble cheat can be activated and if any other
       cheats are activated or in effect at the start of the run in question that it would invalidate the achievement.
