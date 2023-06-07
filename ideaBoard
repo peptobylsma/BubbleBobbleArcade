@@ -14,6 +14,9 @@ Level Based
   Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
       May need to figure out if there is a way to "if/then" the achievement in such a way that the super bobble bobble cheat can be activated and if any other
       cheats are activated or in effect at the start of the run in question that it would invalidate the achievement.
+      
+      There is an easy mode and a powered up mode that can be activated at the title screen, consider logic such as
+        if super mode = true AND easy mode + powered up NOT activated, make icon in bottom right appear to let player know that 1CC achievement is active.
   Complete Level 100 - Single Player - "Never Forget Your Friend!"
   Complete Level 100 - Two Player - "Better End!!"
   Complete Level 100 - Super Bubble Bobble - "True and Happy End!!"
