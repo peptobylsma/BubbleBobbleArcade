@@ -59,6 +59,7 @@ Item Based
     Collect 1 Lightning Potion
     Collect "All" Rare Items "The Aesthete Collector"
     Note: Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
+  
   Staffs and Chests
     Collect 1 Blue Staff and the Giant Blue Popsicle
     Collect 1 Brown Staff and the Giant Chocolate Ice Cream
@@ -74,7 +75,18 @@ Item Based
     Collect 1 Purple Chest and the Puple Gem
     Collect All Chests and Gems
   
-  
+  Potions and Associated Items
+   Collect 1 Orange Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Red Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Green Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Yellow Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Purple Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+    
 Game State Based
   Freeze the Clock
   Complete a Level After the Hurry Up Warning
@@ -152,4 +164,18 @@ Added Collect All Four Lanterns
     ///////////////////////////////////////////////////////////////////////////////
     Changelog 6/7/23
     
-    Removed Fire Trinket Achievement From Rare Items. Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
+    Removed 
+      - Fire Trinket Achievement From Rare Items. Fire Trinket was not included in set as there is only a 1 in 4096 chance that it appears in-game.
+    
+    Added
+    - Potions and Associated Items
+   Collect 1 Orange Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Red Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Green Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Yellow Potion
+      Collect 100,000 Point Bonus From Perfect Collect
+   Collect 1 Purple Potion
+      Collect 100,000 Point Bonus From Perfect Collect
