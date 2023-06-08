@@ -22,8 +22,11 @@ Level Based
   Complete Level 100 - Super Bubble Bobble - "True and Happy End!!"
 
 Score Based
-  TBD
-  Score a 64,000 Point Combo on Round 46.
+  Score 50,000 Points (Similar to NES Set)
+  Score 150,000 Points
+  Score 300,000 Points
+  Score 500,000 Points
+  Score 1,000,000 Points
 
 Secret Room Based
   Find the first secret room (Round 20) 
@@ -36,9 +39,10 @@ Secret Room Based
 Item Based
   The following items are obtained by killing multiple monsters as a combo: 
   Spell "Extend" - "NICE 1P!"
+  Collect 25 EXTEND letters
   Collect 1 Banana
-  Collect 1 Oragne
-  Collect 1 Peache
+  Collect 1 Orange
+  Collect 1 Peach
   Collect 1 Watermelon
   Collect 1 Grape
   Collect 1 Pineapple
@@ -53,12 +57,18 @@ Item Based
   Collect All Three Crosses "Triple Crossed"
   Collect All Four Laterns "Legendary Lanterns"
   
+  Common Items
+    Collect 1 of each common item
+    
+    High Value Items
+      Collect 1 of each high value item obtainable in a single-player game
+      
   Rare Items
     Collect 1 Shoe
     Collect 1 Timer
     Collect 1 Bomb
     Collect 1 Bell
-    Collect 1 Book of Spells
+    Collect 1 Tome
     Collect 1 Diamond Ring
     Collect 1 Red Necklace
     Collect 1 White Necklace
@@ -110,22 +120,29 @@ Item Based
   Enable "I.F, MTJ, NSO, KIM, or YSH" high score cheat and collect x number of diamonds on the first round of a new game
   
   Enemy Based
-  TBD
+  Defeat 25 Enemies (may lose a life)
+  Defeat 50 Enemies (may lose a life)
+  Defeat 75 Enemies (may lose a life)
     
 Game State Based
-  Freeze the Clock
   Complete a Level After the Hurry Up Warning
 
 Warp Based
-  TBD
+  Use an umbrella to warp to another level
   Complete Level 100 Without Using a Warp
 
 Bonus Round Based
   Complete a Perfect Bonus Round
 
 Mechanic Based
-  Kill xxx Enemies At One Time
+  Kill 7 Enemies At One Time
   Activate Super Bubble Bobble Mode "THIS IS A KEY OF SECRET GAME"
+  Shoot 1000 Bubbles (Similar to NES Set)
+  Pop 50 Water Bubbles
+  Pop 50 Flame Bubbles
+  Pop 50 Thunder Bubbles
+  Bounce on Bubbles 50 Times
+  
   
 Ideas From NES Set:
 Survival Based
@@ -255,6 +272,23 @@ Survival Based
   Defeat 25 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
   Defeat 50 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
   Defeat 75 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+- Enemy Based
+  Defeat 25 Enemies (may lose a life)
+  Defeat 50 Enemies (may lose a life)
+  Defeat 75 Enemies (may lose a life)
+- Collect 25 Extend Letters
+-  Common Items
+    Collect 1 of each common item
+    
+    High Value Items
+      Collect 1 of each high value item obtainable in a single-player game
+  
+-Score Based
+  Score 50,000 Points (Similar to NES Set)
+  Score 150,000 Points
+  Score 300,000 Points
+  Score 500,000 Points
+  Score 1,000,000 Points
 
 Edited
   Collect 1 Banana
@@ -265,5 +299,7 @@ Edited
   Collect 1 Pineapple
   "Cornucopia" - Complete all above food collection achievements
         Edited this set due to the number of combos that would be needed to obtain 10 of each fruit
+  - Warp Based
+  Use an umbrella to warp to another level
         
  
