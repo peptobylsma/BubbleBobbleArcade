@@ -34,13 +34,14 @@ Secret Room Based
   
 
 Item Based
+  The following items are obtained by killing multiple monsters as a combo: 
   Spell "Extend" - "NICE 1P!"
-  Collect 10 Bananas
-  Collect 10 Oragnes
-  Collect 10 Peaches
-  Collect 10 Watermelons
-  Collect 10 Grapes
-  Collect 10 Pineapples
+  Collect 1 Banana
+  Collect 1 Oragne
+  Collect 1 Peache
+  Collect 1 Watermelon
+  Collect 1 Grape
+  Collect 1 Pineapple
   "Cornucopia" - Complete all above food collection achievements
   
   Collect 25 Diamonds // try to look into how many diamonds are usually collected throughout the course of a game, maybe do achivements based on 10-25-50-100
@@ -128,7 +129,13 @@ Mechanic Based
   
 Ideas From NES Set:
 Survival Based
-  
+  Defeat 25 Enemies Without Losing a Life
+  Defeat 50 Enemies Without Losing a Life
+  Defeat 75 Enemies Without Losing a Life
+  Defeat 25 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+  Defeat 50 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+  Defeat 75 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+
 Acknowledgements
 
 I'd like to take a moment to thank users WCopelane and QRS for their input on the set, and users Salsa, Mourinhosgum, and UNHchabo who are
@@ -238,4 +245,25 @@ Added Collect All Four Lanterns
 
 ///////////////////////////////////////////////////////////////////////////////
 Changelog 6/8/23
-Added Acknowledgements
+Added
+- Acknowledgements
+- Ideas From NES Set:
+Survival Based
+  Defeat 25 Enemies Without Losing a Life
+  Defeat 50 Enemies Without Losing a Life
+  Defeat 75 Enemies Without Losing a Life
+  Defeat 25 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+  Defeat 50 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+  Defeat 75 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+
+Edited
+  Collect 1 Banana
+  Collect 1 Oragne
+  Collect 1 Peache
+  Collect 1 Watermelon
+  Collect 1 Grape
+  Collect 1 Pineapple
+  "Cornucopia" - Complete all above food collection achievements
+        Edited this set due to the number of combos that would be needed to obtain 10 of each fruit
+        
+ 
