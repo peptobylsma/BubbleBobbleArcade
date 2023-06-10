@@ -19,8 +19,9 @@ between these values.
 ****************************************************************************************************
   
 
-Level Based (0x394b) // Recall that Level 1 is technically 0x00 (0), so we will test for mem address of 0x01 (1) and a delta check that the address incremented
-                     // from 0x00 (0; level 1) to 0x01 (1; level 2). 
+Level Based (0x394b) /* Recall that Level 1 is technically 0x00 (0), so we will test for mem address of 0x01 (1) and a delta check that the address incremented
+                      from 0x00 (0; level 1) to 0x01 (1; level 2). */
+                     
   Complete Level 1 - "The First of Many"
     Mem 8-bit 0x394b = Value 0x01 (1)
     Delta 8-bit 0x394b > Value 0x00 (0)
