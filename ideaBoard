@@ -23,8 +23,8 @@ Level Based (0x394b) /* Recall that Level 1 is technically 0x00 (0), so we will 
                       from 0x00 (0; level 1) to 0x01 (1; level 2). */
                      
   Complete Level 1 - "The First of Many"
-    Mem 8-bit 0x394b = Value 0x01 (1)
-    Delta 8-bit 0x394b > Value 0x00 (0)
+    Mem 8-bit 0x394b = Value 0x01 (1) // Checking that the mem address is now 1 (level 2)
+    Delta 8-bit 0x394b > Value 0x00 (0) // Delta check that there was an increment from level 1 to 2
 
   Complete Level 10 - "Ten Down"
     Mem 8-bit 0x394b = Value 0x0a (10) // Checking that the mem address is now 10 (level 11)
