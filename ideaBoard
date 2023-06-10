@@ -1,9 +1,38 @@
-Achievements
+Bubble Bobble Arcade Achievements
 
-Level Based (0x33a9)
+**************************************************************************************************
+It's my hope that this format will help future Junior Devs organize and visualize the process of achievement development by providing a step by step process 
+which includes both code and code comments that explain the purpose of the code.
+
+I am using the achievement editor, not RATools. The lines of code are in order that they are populated into the achievement editor.
+
+The general format for "code" here will generally be as follows:
+
+Achievement Name - "Title of Achievement"
+  Code Line 1 // Code Comments
+  Code Line 2 // Code Comments
+  
+I will utilize both hexadecimal values in the code and their associated decimal values in parenthesis to accomodate developers that may chose to use either method. 
+As an example, in the code line "Mem 8-bit 0x394b = Value 0x01 (1)", this represents a memory location at 0x394b that is equal to the hex value 0x01 or simply, 1,
+which can be seen in the parenthesis immediately after 0x01. Clicking on the "Show Decimal" box on the bottom right of the achievement editor will toggle
+between these values.
+****************************************************************************************************
+  
+
+Level Based (0x394b) // Recall that Level 1 is technically 0x00 (0), so we will test for mem address of 0x01 (1) and a delta check that the address incremented
+                     // from 0x00 (0; level 1) to 0x01 (1; level 2). 
   Complete Level 1 - "The First of Many"
-  Complete Level 10
-  Complete Level 20
+    Mem 8-bit 0x394b = Value 0x01 (1)
+    Delta 8-bit 0x394b > Value 0x00 (0)
+
+  Complete Level 10 - "Ten Down"
+    Mem 8-bit 0x394b = Value 0x0a (10) // Checking that the mem address is now 10 (level 11)
+    Delta 8-bit 0x394b > Value 0x09 (9) // Delta check that there was an increment from level 10 to 11
+  
+  Complete Level 20 "Twenty Piece"
+    Mem 8-bit 0x394b = Value 0x14 (20) // Checking that the mem address is now 20 (level 21)
+    Delta 8-bit 0x394b > Value 0x13 (19) // Delta check that there was an increment from level 20 to 21
+  
   Complete Level 30
   Complete Level 40
   Complete Level 50
