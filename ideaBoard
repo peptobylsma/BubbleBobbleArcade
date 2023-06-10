@@ -1,6 +1,6 @@
 Achievements
 
-Level Based
+Level Based (0x33a9)
   Complete Level 1 - "The First of Many"
   Complete Level 10
   Complete Level 20
@@ -22,7 +22,7 @@ Level Based
   Complete Level 100 - Super Bubble Bobble - "True and Happy End!!"
 
 Score Based
-  Score 50,000 Points (Similar to NES Set)
+  Score 30,000 Points Default High Score
   Score 150,000 Points
   Score 300,000 Points
   Score 500,000 Points
@@ -149,9 +149,7 @@ Survival Based
   Defeat 25 Enemies Without Losing a Life
   Defeat 50 Enemies Without Losing a Life
   Defeat 75 Enemies Without Losing a Life
-  Defeat 25 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
-  Defeat 50 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
-  Defeat 75 Angry Enemies Without Losing a Life (> Level 57 - need to verify that enemies all become angry after this level like NES)
+
 
 Acknowledgements
 
@@ -301,5 +299,8 @@ Edited
         Edited this set due to the number of combos that would be needed to obtain 10 of each fruit
   - Warp Based
   Use an umbrella to warp to another level
-        
+////////////////////////////////////////////////////////////////
+Changelog 6/9/23
+Removed
+  - Angry enemy achievements after level 57
  
