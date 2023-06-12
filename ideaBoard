@@ -21,6 +21,8 @@ between these values.
 
 Level Based (0x394b) /* Recall that Level 1 is technically 0x00 (0), so we will test for mem address of 0x01 (1) and a delta check that the address incremented
                       from 0x00 (0; level 1) to 0x01 (1; level 2). */
+                      
+For badges, use level image on top left of round maps.
                      
   Complete Level 1 - "The First of Many"
     Mem 8-bit 0x394b = Value 0x01 (1) // Checking that the mem address is now 1 (level 2)
@@ -34,13 +36,34 @@ Level Based (0x394b) /* Recall that Level 1 is technically 0x00 (0), so we will 
     Mem 8-bit 0x394b = Value 0x14 (20) // Checking that the mem address is now 20 (level 21)
     Delta 8-bit 0x394b > Value 0x13 (19) // Delta check that there was an increment from level 20 to 21
   
-  Complete Level 30
-  Complete Level 40
-  Complete Level 50
-  Complete Level 60
-  Complete Level 70
-  Complete Level 80
-  Complete Level 90
+  Complete Level 30 "Dirty Thirty"
+    Mem 8-bit 0x394b = Value 0x1e (30) // Checking that the mem address is now 30 (level 31)
+    Delta 8-bit 0x394b > Value 0x1d (29) // Delta check that there was an increment from level 30 to 31
+    
+  Complete Level 40 "Lordy Lordy, You've Finished Forty"
+   Mem 8-bit 0x394b = Value 0x28 (40) // Checking that the mem address is now 40 (level 41)
+   Delta 8-bit 0x394b > Value 0x27 (39) // Delta check that there was an increment from level 40 to 41
+   
+  Complete Level 50 "Woooah You're Halfway There!"
+      Mem 8-bit 0x394b = Value 0x32 (50) // Checking that the mem address is now 50 (level 51)
+      Delta 8-bit 0x394b > Value 0x31 (49) // Delta check that there was an increment from level 50 to 51
+      
+  Complete Level 60 "Shifty Sixty"
+        Mem 8-bit 0x394b = Value 0x3c (60) // Checking that the mem address is now 60 (level 61)
+   Delta 8-bit 0x394b > Value 0x3b (59) // Delta check that there was an increment from level 60 to 61
+   
+  Complete Level 70 "Seventieth Heaven"
+        Mem 8-bit 0x394b = Value 0x46 (70) // Checking that the mem address is now 70 (level 71)
+   Delta 8-bit 0x394b > Value 0x45 (69) // Delta check that there was an increment from level 70 to 71
+   
+  Complete Level 80 "Crazy Eighty"
+      Mem 8-bit 0x394b = Value 0x50 (80) // Checking that the mem address is now 80 (level 81)
+      Delta 8-bit 0x394b > Value 0x4f (79) // Delta check that there was an increment from level 80 to 81
+   
+  Complete Level 90 "The Home Stretch"
+      Mem 8-bit 0x394b = Value 0x5a (90) // Checking that the mem address is now 90 (level 91)
+   Delta 8-bit 0x394b > Value 0x59 (89) // Delta check that there was an increment from level 90 to 91
+   
   Complete Level 100 - Super Bubble Bobble, No Warps, 1CC - "Ultimate True and Happy End!!"
       May need to figure out if there is a way to "if/then" the achievement in such a way that the super bobble bobble cheat can be activated and if any other
       cheats are activated or in effect at the start of the run in question that it would invalidate the achievement.
