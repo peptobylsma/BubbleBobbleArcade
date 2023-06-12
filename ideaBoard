@@ -76,6 +76,8 @@ For badges, use level image on top left of round maps.
 
 Score Based
   Score 30,000 Points Default High Score
+    BCD 32-bit 0x393f >= Value 0x1c9c380 // checks for score of greater than or equal to 30,000 points
+    Delta 32-bit 0x393f > Value 0x1c99c70 // delta check to detect change from 29,990 points
   Score 150,000 Points
   Score 300,000 Points
   Score 500,000 Points
