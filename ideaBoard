@@ -105,7 +105,7 @@ Score Based
    Delta 8-bit 0x3943 = Value 0x15
     Mem 8-bit 0x3943 >= Value 0x15
 
-Secret Room Based
+Secret Room Based // The memory location 0x457e provides the special items (secret doors) to each secret room.
   Find the first secret room (Round 20 - Level 101) "...erugif dlo eht emoceb ot tnaw uoy fI" // The player must reach round 20 without dying.  
     Delta 8-bit 0x394b = Value 0x13 (Level 19)
     Mem 8-bit 0x394b = Value 0x65 (Level "101") // Each of the three secret rooms have an address of 0x65 at 0x394b... perhaps its the 0x457e31
