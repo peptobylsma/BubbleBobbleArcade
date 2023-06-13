@@ -211,6 +211,9 @@ Item Based
   Defeat 25 Enemies (may lose a life)
   Defeat 50 Enemies (may lose a life)
   Defeat 75 Enemies (may lose a life)
+  Defeat 25 Enemies using water bubbles (0x38f2/5????)
+  Defeat 25 enemies using fire bubbles (0x38f3)
+  Defeat 25 enemies using lightning bubbles (0x38f4)
     
 Game State Based
   Complete a Level After the Hurry Up Warning
