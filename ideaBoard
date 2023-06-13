@@ -83,15 +83,41 @@ Score Based
    - 0x3943 
     Contains the hundredthousands (xx00000)
 
-  Score 150,000 Points
-  Score 300,000 Points
-  Score 500,000 Points
-  Score 1,000,000 Points
+  Score 30,000 Points - "Enter Your Initials
+    Delta 8-bit 0x3942 =  Value 0x30
+    Mem 8-Bit 0x3942 >= Value 0x30 // note that the comparator here has to be >= because it would have to be EXACTLY 0x30 if the = comparator is used.
+    
+  Score 150,000 Points - "Bubbler"
+    Delta 8-bit 0x3942 = Value 0x50 // note the addition of additional delta and memory checks for the other digit placeholders
+    Delta 8-bit 0x3943 = Value 0x01
+    Mem 8-bit 0x3942 >= Value 0x50
+    Mem 8-bit 0x3943 >= Value 0x01
+  
+  Score 500,000 Points "Bobbler"
+    Delta 8-bit 0x3943 = Value 0x05
+    Mem 8-bit 0x3943 >= Value 0x05
+    
+  Score 1,000,000 Points "Bubble Bobbin"
+    Delta 8-bit 0x3943 = Value 0x10
+    Mem 8-bit 0x3943 >= Value 0x10
+      
+  Score 1,500,000 Points "Super Bubble Bobber"
+   Delta 8-bit 0x3943 = Value 0x15
+    Mem 8-bit 0x3943 >= Value 0x15
 
 Secret Room Based
-  Find the first secret room (Round 20) 
-  Find the second secret room (Round 30)
-  Find the third secret room (Round 40)
+  Find the first secret room (Round 20 - Level 101) "...erugif dlo eht emoceb ot tnaw uoy fI" // The player must reach round 20 without dying.  
+    Delta 8-bit 0x394b = Value 0x13 (Level 19)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101") // Each of the three secret rooms have an address of 0x65 at 0x394b... perhaps its the 0x457e31
+        0x457e32, and 0x457e33 (Secret Room 1,2, and 3, respectively) that dictates which secret room is entered?
+        
+  Find the second secret room (Round 30) "...enicidem lacigam esehT"// The player must reach round 30 without dying.  
+    Delta 8-bit 0x394b = Value 0x1d (Level 29)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101")
+  
+  Find the third secret room (Round 40) "...tsal eht litnu rehto hcae pleH" // The player must reach round 40 without dying.  
+    Delta 8-bit 0x394b = Value 0x27 (Level 39)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101")
   
   May need to consider the potential for glitch if player loses last life in one of these modes...
   
@@ -110,6 +136,8 @@ Item Based
   
   Collect 36 * 3 Diamonds // try to look into how many diamonds are usually collected throughout the course of a game, maybe do achivements based on 10-25-50-100
     diamonds, do Diamond Hunter Achievements
+    
+    Diamonds are 10,000 points per; 360,000 points per bonus round.
   
   Collect All Three Candies - "Sweet Tooth"
   Collect All Three Umbrellas - "Mary POPpins"
@@ -363,15 +391,52 @@ Edited
 ////////////////////////////////////////////////////////////////
 Changelog 6/9/23
 Removed
-  - Angry enemy achievements after level 57
+  - Angry enemy achievements after level 57 as they dont appear to exist in the arcade version.
  ////////////////////////////////////////////////////////////
  Changelog 6/12/2023
  Changed ordering of MEM and DELTA ID types on all map round achievements.
  Changed > comparator in all DELTA ID types on all mape round achievements to = comparator.
- Updated location of P1 points (Thanks PaulGoes01)
+
+Updated location of P1 points (Thanks PaulGoes01)
   - 0x3941
      Contains the tens (0000xx0)
    - 0x3942 
     Contains the thousands (00xx000) 
    - 0x3943 
     Contains the hundredthousands (xx00000)
+  
+  Score 30,000 Points - "Enter Your Initials
+    Delta 8-bit 0x3942 =  Value 0x30
+    Mem 8-Bit 0x3942 >= Value 0x30 // note that the comparator here has to be >= because it would have to be EXACTLY 0x30 if the = comparator is used.
+    
+  Score 150,000 Points - "Bubbler"
+    Delta 8-bit 0x3942 = Value 0x50 // note the addition of additional delta and memory checks for the other digit placeholders
+    Delta 8-bit 0x3943 = Value 0x01
+    Mem 8-bit 0x3942 >= Value 0x50
+    Mem 8-bit 0x3943 >= Value 0x01
+  
+  Score 500,000 Points "Bobbler"
+    Delta 8-bit 0x3943 = Value 0x05
+    Mem 8-bit 0x3943 >= Value 0x05
+    
+  Score 1,000,000 Points "Bubble Bobbin"
+    Delta 8-bit 0x3943 = Value 0x10
+    Mem 8-bit 0x3943 >= Value 0x10
+      
+  Score 1,500,000 Points "Super Bubble Bobber"
+   Delta 8-bit 0x3943 = Value 0x15
+    Mem 8-bit 0x3943 >= Value 0x15
+
+Secret Room Based
+  Find the first secret room (Round 20 - Level 101) "...erugif dlo eht emoceb ot tnaw uoy fI" // The player must reach round 20 without dying.  
+    Delta 8-bit 0x394b = Value 0x13 (Level 19)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101") // Each of the three secret rooms have an address of 0x65 at 0x394b... perhaps its the 0x457e31
+        0x457e32, and 0x457e33 (Secret Room 1,2, and 3, respectively) that dictates which secret room is entered?
+        
+  Find the second secret room (Round 30) "...enicidem lacigam esehT"// The player must reach round 30 without dying.  
+    Delta 8-bit 0x394b = Value 0x1d (Level 29)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101")
+  
+  Find the third secret room (Round 40) "...tsal eht litnu rehto hcae pleH" // The player must reach round 40 without dying.  
+    Delta 8-bit 0x394b = Value 0x27 (Level 39)
+    Mem 8-bit 0x394b = Value 0x65 (Level "101")
