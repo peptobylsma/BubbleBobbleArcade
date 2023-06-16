@@ -18,7 +18,7 @@ which can be seen in the parenthesis immediately after 0x01. Clicking on the "Sh
 between these values.
 ****************************************************************************************************
   
-
+!!!!!!! NEED TO ADD CODE TO PROTECT AGAINST UMBRELLAS COUNTING LEVELS !!!!!!!! USING THIS TRIGGERS ACHIEVEMENT
 Level Based (0x394b) /* Recall that Level 1 is technically 0x00 (0), so we will test for mem address of 0x01 (1) and a delta check that the address incremented
                       from 0x00 (0; level 1) to 0x01 (1; level 2). */
                       
@@ -124,7 +124,10 @@ Secret Room Based // The memory location 0x457e provides the special items (secr
 
 Item Based
   The following items are obtained by killing multiple monsters as a combo: 
-  Spell "Extend" - "NICE 1P!"
+  Spell "Extend" - "NICE 1P!" // Multiple locations require checks
+    1. mem  8-bit 0x83d3 = value 0x00 // checks for soft reset, initializes at 0x00, increments to 0x01 after 24 frames
+    2. mem 8-bit 0x38d7 != value 0x00 // checks for active player; 0x38d7 = 0x00 when no active player, 0x01 when 1P active, 0x03 when both players active
+    3. mem 8-bit 0x3a42 < delta 8-bit 0x3a42 // 0x3a42 increments when EXTEND letters are collected and resets to 0x00 when the final letter has been collected, this is a delta check to verify that the value has reset
   Collect 25 EXTEND letters
   Collect 1 Banana
   Collect 1 Orange
